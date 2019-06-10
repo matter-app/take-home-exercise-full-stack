@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  max-width: 992px;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.team-grid {
+  margin: 0 auto;
+  max-width: 359px;
+  padding-top: 64px;
+  text-align: center;
+}
+
+@media screen and (min-width: 1080px) {
+  .app {
+    margin-bottom: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .team-grid {
+    max-width: none;
+  }
+}
