@@ -50,6 +50,8 @@ class App extends React.Component {
             favoriteColor={member.favoriteColor}
           />
         ))}
+        {/* Make this new team member link to your form! */}
+        <TeamMember id="new" name="Join us!" title="New Teammate" />
       </div>
     );
   }

@@ -1,5 +1,5 @@
 const app = require('./app');
-const { seed } = require('./db');
+const { seed } = require('./model');
 
 async function init() {
   try {
