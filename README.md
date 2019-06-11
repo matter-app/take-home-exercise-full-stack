@@ -1,18 +1,20 @@
 # Matter Engineering Coding Challenge
 
-Welcome to the Matter coding challenge!
+💫 Welcome to the Matter coding challenge! 🎉
 
-This full-stack challenge is designed to take about 2 hours and involves building a form component in React that also makes a request to the Node.js backend.
+This full-stack challenge is designed to take about 2-3 hours for someone familiar with React/Node. It involves building a form component in React that also makes a request to the Node.js backend.
 
 ## Getting Set Up
 
 The challenge requires [Node.js](https://nodejs.org/en/) to be installed. We recommend the LTS version.
 
-Start by forking this repository and cloning your forked version.
+Start by cloning this repository.
 
 In the repo root directory, run `npm install` to gather all dependencies.
 
 Then run `npm start` which should start both the server and the React client.
+
+❗️ **Make sure you commit all changes to the master branch!**
 
 ## Technical Notes
 
@@ -36,6 +38,16 @@ Below is a list of user stories corresponding to our acceptance criteria.
 
 ## Going Above and Beyond the Requirements
 
-The requirements above are relatively basic and can be interpreted as a starting point. There are many fancy things to do on top of the base requirements such as validation, testing, error-handling, styling, and more, but none of these are required.
+Given the time expectations of this challenge, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome! 🙌
 
-Given the time expectations of this challenge, we don't expect anyone to submit anything incredibly fancy, but any extra credit item(s) that showcase your unique strengths would be awesome!
+## Submitting the Assignment
+
+When you are finished the assignment, run the following command:
+
+```sh
+git bundle create coding-challenge.bundle HEAD master
+```
+
+This generates a bundle file called `coding-challenge` based on your local master branch. Send that file in an email to [engineering@matterapp.com](mailto:engineering@matterapp.com) and we'll review your code within 1-2 days.
+
+Thank you and good luck! 🙏
