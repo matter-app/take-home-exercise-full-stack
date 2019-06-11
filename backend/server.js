@@ -1,9 +1,9 @@
 const app = require('./app');
-const { seed } = require('./model');
+
+init();
 
 async function init() {
   try {
-    await seed();
     app.listen(3001, () => {
       console.log('Express App Listening on Port 3001');
     });
@@ -12,5 +12,3 @@ async function init() {
     process.exit(1);
   }
 }
-
-init();
