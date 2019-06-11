@@ -48,6 +48,6 @@ When you are finished the assignment, run the following command:
 git bundle create coding-challenge.bundle HEAD master
 ```
 
-This generates a bundle file called `coding-challenge` based on your local master branch. Send that file in an email to [engineering@matterapp.com](mailto:engineering@matterapp.com) and we'll review your code within 1-2 days.
+This generates a bundle file called `coding-challenge` based on your local master branch. Send that file in an email to [engineering-challenges@matterapp.com](mailto:engineering-challenges@matterapp.com) and we'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
