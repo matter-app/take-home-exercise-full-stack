@@ -2,7 +2,7 @@
 
 💫 Welcome to the Matter coding challenge! 🎉
 
-This full-stack challenge is designed to take about 2-3 hours for someone familiar with React/Node. It involves building a form component in React that also makes a request to the Node.js backend.
+This full-stack challenge is designed to take about 3 hours for someone familiar with React/Node/Express. It involves building a form component in React that also makes a request to the Node.js/Express.js backend.
 
 ## Getting Set Up
 
@@ -50,6 +50,6 @@ When you are finished the assignment, run the following command:
 git bundle create coding-challenge.bundle HEAD master
 ```
 
-This generates a bundle file called `coding-challenge` based on your local master branch. Send that file in an email to [engineering@matterapp.com](mailto:engineering@matterapp.com) and we'll review your code within 1-2 days.
+This generates a bundle file called `coding-challenge` based on your local master branch. Send that file in an email to [engineering-challenges@matterapp.com](mailto:engineering-challenges@matterapp.com) and we'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
