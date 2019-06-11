@@ -2,7 +2,7 @@
 
 💫 Welcome to the Matter coding challenge! 🎉
 
-This full-stack challenge is designed to take about 2-3 hours for someone familiar with React/Node. It involves building a form component in React that also makes a request to the Node.js backend.
+This full-stack challenge is designed to take about 2-3 hours for someone familiar with React/Node/Express. It involves building a form component in React that also makes a request to the Node.js/Express.js backend.
 
 ## Getting Set Up
 
