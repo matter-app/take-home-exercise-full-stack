@@ -1,12 +1,12 @@
-# Matter Engineering Coding Challenge
+# Matter Engineering Take-Home Exercise
 
-💫 Welcome to the Matter coding challenge! 🎉
+💫 Welcome to the Matter take-home coding exercise! 🎉
 
-This full-stack challenge is designed to take about 3 hours for someone familiar with React/Node/Express. It involves building a form component in React that also makes a request to the Node.js/Express.js backend.
+This full-stack exercise is designed to take about 3 hours for someone familiar with React/Node/Express. It involves building a form component in React that also makes a request to the Node.js/Express.js backend.
 
 ## Getting Set Up
 
-The challenge requires [Node.js](https://nodejs.org/en/) to be installed. We recommend the LTS version.
+The exercise requires [Node.js](https://nodejs.org/en/) to be installed. We recommend using the LTS version.
 
 1. Start by cloning this repository.
 
@@ -30,26 +30,26 @@ The challenge requires [Node.js](https://nodejs.org/en/) to be installed. We rec
 
 Below is a list of user stories corresponding to our acceptance criteria.
 
-1. As a user, I can click a button inside the empty "NEW TEAMMATE" card at the bottom that says 'Join the team!'.
+1. I can click a button inside the empty "NEW TEAMMATE" card at the bottom that says 'Join the team!'.
 
-1. As a user, clicking the 'Join the team!' button displays a form allowing me to fill out all of my team member information as per the data model (see `backend/model.js`).
+1. Clicking the 'Join the team!' button displays a form allowing me to fill out all of my team member information as per the data model (see `backend/model.js`).
 
-1. As a user, filling out the form will create a new team member in the database that persists on reload.
+1. Filling out the form will create a new team member in the database that persists on reload.
 
-1. As a user, I can see team member cards for all of the new team members I have created.
+1. I can see team member cards for all of the new team members I have created.
 
 ## Going Above and Beyond the Requirements
 
-Given the time expectations of this challenge, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome! 🙌
+Given the time expectations of this exercise, we don't expect anyone to submit anything super fancy, but if you find yourself with extra time, any extra credit item(s) that showcase your unique strengths would be awesome! 🙌
 
 ## Submitting the Assignment
 
-When you are finished the assignment, run the following command:
+When you have finished the assignment, run the following command:
 
 ```sh
-git bundle create coding-challenge.bundle HEAD master
+git bundle create take-home-exercise.bundle HEAD master
 ```
 
-This generates a bundle file called `coding-challenge` based on your local master branch. Send that file in an email to [engineering-challenges@matterapp.com](mailto:engineering-challenges@matterapp.com) and we'll review your code within 1-2 days.
+This generates a bundle file called `take-home-exercise` based on your local master branch. Send that file in an email to [mde@matterapp.com](mailto:mde@matterapp.com) and we'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
