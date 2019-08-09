@@ -50,6 +50,6 @@ When you have finished the assignment, run the following command:
 git bundle create take-home-exercise.bundle HEAD master
 ```
 
-This generates a bundle file called `take-home-exercise` based on your local master branch. Send that file in an email to [engineering@matterapp.com](mailto:engineering@matterapp.com) and we'll review your code within 1-2 days.
+This generates a bundle file called `take-home-exercise` based on your local master branch. Send that file in an email to [engineering-take-home@matterapp.com](mailto:engineering-take-home@matterapp.com) and we'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
