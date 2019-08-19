@@ -16,7 +16,7 @@
     "client": "react-scripts start",
     "server": "nodemon ./backend/server.js",
     "seed": "node ./scripts/seedDb.js",
-    "package": "node ./scripts/package.js",
+    "bundle": "node ./scripts/bundle.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
