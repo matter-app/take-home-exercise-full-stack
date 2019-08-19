@@ -19,6 +19,16 @@ async function seed() {
         'At Intuit I was leading an entirely distributed team with daily group video chats. My manager gave me the feedback that my facial expressions were making them feel as if I thought they were stupid. I was totally unaware of non-verbal communication being a “thing” and I felt awful. After correcting the behavior, those team members are now some of my closest friends and colleagues.'
     }),
     TeamMember.create({
+      firstName: 'Matthew',
+      lastName: 'Eernisse',
+      title: 'CTO',
+      photoUrl:
+        'https://matterapp.com/static/mde_cto_matter-0b4c9c077275efce8eef42a0b2749cf6.jpg',
+      favoriteColor: '#F2A745',
+      story:
+        'There have been many times in my career when candid, actionable feedback would have made a bad situation better, or a good situation more awesome. When I started as a manager, I received feedback that my enthusiasm during conversation steamrolls over other people. Receiving ongoing feedback on this has made me a much better listener, and in turn more effective in my work.'
+    }),
+    TeamMember.create({
       firstName: 'Kerem',
       lastName: 'Kazan',
       title: 'Founding Engineer',
@@ -37,16 +47,6 @@ async function seed() {
         'https://matterapp.com/static/marc_designer_matter-057a413b583510e01e55fbfab25cd1e8.jpg',
       story:
         'Some of the best feedback I received was “you don’t have to do your work alone.” I was an individual contributor working on a large cross-team initiative. I failed, and we decided to stop working on it. I later learned that when someone asks you to do something, it doesn’t mean they are looking for you to be the sole contributor. Ask for their help.'
-    }),
-    TeamMember.create({
-      firstName: 'Michael',
-      lastName: 'Hueter',
-      title: 'Software Engineer',
-      favoriteColor: '#F2A645',
-      photoUrl:
-        'https://matterapp.com/static/michael_matter-07991b3a8ef84e6b82c674781f179ac7.png',
-      story:
-        'Feedback has been a huge catalyst for growth for me. At my first job as a developer, I received candid, direct feedback that my debugging skills needed to drastically improve to stay on the team. This spurred me to reinvent my approach and be extremely mindful of my technique and bad habits. A year later I was promoted to technical lead of the team.'
     })
   ]);
 }
