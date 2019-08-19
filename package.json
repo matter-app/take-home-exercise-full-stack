@@ -15,7 +15,8 @@
     "start": "concurrently \"npm run server\" \"npm run client\"",
     "client": "react-scripts start",
     "server": "nodemon ./backend/server.js",
-    "seed": "node ./backend/seedDb.js",
+    "seed": "node ./scripts/seedDb.js",
+    "package": "node ./scripts/package.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
