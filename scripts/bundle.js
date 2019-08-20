@@ -1,18 +1,10 @@
 
 let sh = require('child_process').execSync;
-let diff;
+let author = sh('git config --get user.email').toString().trim();
+let commits = sh(`git log --author=${ author }`).toString().trim();
 
-try {
-  diff = sh('git diff origin/master').toString();
-}
-catch(e) {
-  console.error('Could not check for Git commits. Are you offline?');
-  console.log(e.message);
-  process.exit(1);
-}
-
-if (!diff.length) {
-  console.error('This repo has no diff from origin/master. Did you commit your changes?');
+if (!commits) {
+  console.error('This repo has no commits from the current Git user. Did you commit your changes?');
   process.exit(1);
 }
 
