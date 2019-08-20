@@ -44,11 +44,7 @@ Given the time expectations of this exercise, we don't expect anyone to submit a
 
 ## Submitting the Assignment
 
-When you have finished the assignment, run the following command:
-
-```sh
-git bundle create take-home-exercise.bundle HEAD master
-```
+When you have finished the assignment, create a bundle of your work by running `npm run bundle` in the repo root.
 
 This generates a bundle file called `take-home-exercise` based on your local master branch. Upload that file using the link provided in the e-mail you received, and we'll review your code within 1-2 days.
 
