@@ -8,7 +8,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "3.0.1",
-    "sequelize": "5.8.8",
+    "sequelize": "5.15.1",
     "sqlite3": "^4.0.1"
   },
   "scripts": {
