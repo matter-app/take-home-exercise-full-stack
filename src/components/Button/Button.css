@@ -1,0 +1,17 @@
+.primary {
+  background-color: rgb(52, 102, 242);
+  border: 2px solid rgb(52, 102, 242);
+  color: white;
+  padding: 12px 22px;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.outline {
+  border: 2px solid rgb(52, 102, 242);
+  color: rgb(52, 102, 242);
+  padding: 12px 22px;
+  font-size: 18px;
+  border-radius: 4px;
+}
