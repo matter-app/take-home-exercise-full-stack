@@ -46,6 +46,6 @@ Given the time expectations of this exercise, we don't expect anyone to submit a
 
 When you have finished the assignment, create a bundle of your work by running `npm run bundle` in the repo root.
 
-This generates a bundle file called `take-home-exercise` based on your local master branch. Upload that file using the link provided in the e-mail you received, and we'll review your code within 1-2 days.
+This generates a bundle file called `take-home-exercise` based on your local master branch. Return that file to us via e-mail, and we'll review your code within 1-2 days.
 
 Thank you and good luck! 🙏
