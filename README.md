@@ -2,7 +2,9 @@
 
 💫 Welcome to the Matter take-home coding exercise! 🎉
 
-This full-stack exercise is designed to take about 3 hours for someone familiar with React/Node/Express. It involves building a form component in React that also makes a request to the Node.js/Express.js backend.
+This full-stack exercise involves building a form component in React that also makes a request to the Node.js/Express.js backend. We imagine you should spend around four hours at minimum to implement this feature, but want to emphasize that there is no specific deadline, or ticking clock for the implementation time. You can feel free to break the work up over multiple days. The entire point of this exercise is to get a good sense of how you build software.
+
+Also, please keep in mind that you are not specifically limited to four hours. If you want to spend more time than that, using this as an opportunity to learn a new library or technology, or just generally making it more awesome, you are of course free to do so.
 
 ## Getting Set Up
 
